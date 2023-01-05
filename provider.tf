@@ -19,6 +19,6 @@ resource "aws_instance" "s1" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Terraform-jenkins"
+    Name = "Jenkins_Terraform"
   }
 }
