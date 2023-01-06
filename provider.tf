@@ -9,9 +9,9 @@ terraform {
 }
 
 provider "aws" {
-  region     = "var.region"
-  access_key = "var.access_key"
-  secret_key = "var.secret_key"
+  region     = "ap-south-1"
+  access_key = "AKIAR2VHO27VS65ZQGN5"
+  secret_key = "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"
 }
 
 resource "aws_instance" "s1" {
@@ -19,6 +19,6 @@ resource "aws_instance" "s1" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Jenkins_Terraform"
+    Name = "DEVELOPER"
   }
 }
