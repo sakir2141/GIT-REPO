@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ("checkout from GIT") {
             steps {
-               git 'https://github.com/sakir2141/PROJECT.git'
+               git 'https://github.com/sakir2141/GIT-REPO.git'
             }
         }
         stage ("terraform init") {
